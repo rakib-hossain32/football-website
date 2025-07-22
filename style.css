@@ -7,3 +7,24 @@
         font-family: 'Poppins', sans-serif;
     }
 }
+
+@keyframes banner-animation {
+    0%{
+        opacity: 0;
+        transform: translateX(-10px);
+    }
+    
+    50%{
+        opacity: .5;
+        transform: translateX(-5px);
+    }
+    
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.banner{
+    animation: banner-animation .7s ease forwards;
+}

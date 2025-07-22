@@ -8,12 +8,12 @@
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <title>Conceptual Session</title>
 </head>
 
 <body class="font-poppins">
-    <header class="">
+    <header class="banner">
         <nav
             class="bg-[#161616] xl:flex xl:max-w-[1414px] xl:max-h-[646px] mx-auto rounded-[30px] xl:gap-20 xl:mt-20 md:mt-[50px] md:max-w-[734px] md:gap-7 md:flex max-w-[334px] mt-2">
             <div
@@ -26,8 +26,8 @@
                         literature from 45 BC, making it over 2000 years old.</span></p>
 
                 <button
-                    class="bg-[#FF0000] text-white xl:px-6 xl:py-4 rounded-[5px] text-xl md:p-3 py-2 px-3 mb-[21px] ">Watch
-                    Live<i class="fa-solid fa-arrow-right-long ml-2"></i></button>
+                    class="bg-[#FF0000] text-white xl:px-6 xl:py-4 rounded-[5px] md:text-xl md:p-3 py-2 px-3 mb-[21px] hover:bg-white hover:text-[#FF0000] hover:border-white ease-out duration-[0.5s]"><a href="" class="">Watch
+                        Live<i class="fa-solid fa-arrow-right-long ml-2"></i></a></button>
             </div>
             <img src="img/banner/banner-img.png" alt=""
                 class="xl:max-w-[621.903px] xl:pt-8 xl:pr-4 md:pr-4 md:pt-14 md:max-w-[323px] pl-[63px] pr-[38px]">
@@ -38,15 +38,15 @@
         <section class="mt-[33px] ">
             <div class="xl:flex xl:gap-[55px]">
                 
-                <div class="text-center md:flex md:justify-between xl:inline xl:text-left xl:bg-[#161616] xl:w-[912px] xl:h-[290px] xl:rounded-[10px] xl:p-[30px]">
+                <div class="text-center md:flex md:justify-between xl:inline xl:text-left xl:bg-[#161616] xl:w-[912px] xl:h-fit xl:rounded-[10px] xl:p-[30px]">
                     <div class=""><button
-                            class="border-[#FF0000] border text-[#FF0000] xl:px-6 xl:py-4 md:py-[17px] md:px-[28px] rounded-[5px] text-xl py-2 px-[33px] mb-[21px] xl:w-full xl:bg-[white] xl:text-[#161616] xl:border-[0px] font-[500]"><a
+                            class="border-[#FF0000] border text-[#FF0000] xl:px-6 xl:py-4 md:py-[17px] md:px-[28px] rounded-[5px] text-xl py-[10px] px-[33px] mb-[21px] xl:w-full xl:bg-[white] xl:text-[#161616] xl:border-[0px] font-[500] xl:hover:bg-[#FF0000] xl:hover:text-[white] xl:ease-out xl:duration-[0.5s] hover:bg-[#FF0000] hover:text-[white] ease-out duration-[0.5s]"><a
                                 href="" class="">Upcoming Match</a></button></div>
                     <div class=""><button
-                            class="border-[#FF0000] border text-[#FF0000] xl:px-6 xl:py-4 md:py-[17px] md:px-[68px] rounded-[5px] text-xl py-2 px-[37px] mb-[21px] xl:w-full xl:bg-[white] xl:text-[#161616] xl:border-[0px] font-[500]"><a
+                            class="border-[#FF0000] border text-[#FF0000] xl:px-6 xl:py-4 md:py-[17px] md:px-[68px] rounded-[5px] text-xl py-[10px] px-[37px] mb-[21px] xl:w-full xl:bg-[white] xl:text-[#161616] xl:border-[0px] font-[500] xl:hover:bg-[#FF0000] xl:hover:text-[white] xl:ease-out xl:duration-[0.5s] hover:bg-[#FF0000] hover:text-[white] ease-out duration-[0.5s]"><a
                                 href="" class="">All Group</a></button></div>
                     <div class=""><button
-                            class="bg-[#FF0000] border-[#FF0000] border text-[#FFFFFF] xl:px-6 xl:py-4 md:py-[17px] md:px-[68px] rounded-[5px] text-xl py-2 px-[60px] mb-[21px] xl:w-full"><a
+                            class="bg-[#FF0000] border-[#FF0000] border text-[#FFFFFF] xl:px-6 xl:py-4 md:py-[17px] md:px-[68px] rounded-[5px] text-xl py-[10px] px-[60px] mb-[21px] xl:mb-[0px] font-[500] xl:w-full xl:hover:bg-white xl:hover:text-[#FF0000] xl:hover:border-white xl:ease-out xl:duration-[0.5s] hover:bg-white hover:text-[#FF0000] hover:border-[#FF0000] ease-out duration-[0.5s] "><a
                                 href="" class="">Blog</a></button></div>
                 </div>
                 <div class="md:grid md:grid-cols-2 md:gap-5 xl:grid xl:grid-cols-3">
@@ -54,8 +54,8 @@
                         <img src="img/matches/matches_1.jpg" alt="" class="w-full rounded-[10.737px_10.737px_0px_0px]">
                         <div class="p-5 border-[#E8E8E8] border rounded-[0px_0px_10.737px_10.737px] border-t-0 ">
                             <button
-                                class=" border border-[#161616] xl:px-[18px] xl:py-1 rounded-[5px] text-xl md:px-[18px] md:py-1 py-1 px-[18px] mb-[21px] font-[500]"><a
-                                    href="" class="text-[#161616]">Transfer</a></button>
+                                class=" border border-[#161616] xl:px-[18px] xl:py-1 rounded-[5px] text-xl md:px-[18px] md:py-1 py-1 px-[18px] mb-[21px] font-[500] hover:border-[#FF0000] ease-out duration-[0.5s] "><a
+                                    href="" class="text-[#161616] hover:text-[#FF0000] ease-out duration-[0.5s]">Transfer</a></button>
                             <h5 class="text-[#161616] text-[18.768px] font-semibold mb-[24px]">Transfer Live: Chlesea in
                                 talks over Kimpenbe transfer</h5>
                             <div class="text-[#161616CC]">  
@@ -65,11 +65,67 @@
                         </div>
                     </div>
                     <div class="mb-[16px]">
-                        <img src="img/matches/matches_1.jpg" alt="" class="w-full rounded-[10.737px_10.737px_0px_0px]">
+                        <img src="img/matches/matches_2.webp" alt="" class="w-full rounded-[10.737px_10.737px_0px_0px] h-[200px]">
                         <div class="p-5 border-[#E8E8E8] border rounded-[0px_0px_10.737px_10.737px] border-t-0 ">
                             <button
-                            class=" border border-[#161616] xl:px-[18px] xl:py-1 rounded-[5px] text-xl md:px-[18px] md:py-1 py-1 px-[18px] mb-[21px] font-[500]"><a
-                                    href="" class="text-[#161616]">Transfer</a></button>
+                            class=" border border-[#161616] xl:px-[18px] xl:py-1 rounded-[5px] text-xl md:px-[18px] md:py-1 py-1 px-[18px] mb-[21px] font-[500] hover:border-[#FF0000] ease-out duration-[0.5s]"><a
+                                    href="" class="text-[#161616] hover:text-[#FF0000] ease-out duration-[0.5s]">Transfer</a></button>
+                            <h5 class="text-[#161616] text-[18.768px] font-semibold mb-[24px]">Transfer Live: Chlesea in
+                                talks over Kimpenbe transfer</h5>
+                            <div class="text-[#161616CC]">
+                                <span class="mr-8"><i class="fa-solid fa-clock"></i> 10h</span>
+                                <span><i class="fa-solid fa-message"></i> 23</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-[16px]">
+                        <img src="img/matches/matches_3.jpg" alt="" class="w-full rounded-[10.737px_10.737px_0px_0px]">
+                        <div class="p-5 border-[#E8E8E8] border rounded-[0px_0px_10.737px_10.737px] border-t-0 ">
+                            <button
+                            class=" border border-[#161616] xl:px-[18px] xl:py-1 rounded-[5px] text-xl md:px-[18px] md:py-1 py-1 px-[18px] mb-[21px] font-[500] hover:border-[#FF0000] ease-out duration-[0.5s]"><a
+                                    href="" class="text-[#161616] hover:text-[#FF0000] ease-out duration-[0.5s]">Transfer</a></button>
+                            <h5 class="text-[#161616] text-[18.768px] font-semibold mb-[24px]">Transfer Live: Chlesea in
+                                talks over Kimpenbe transfer</h5>
+                            <div class="text-[#161616CC]">
+                                <span class="mr-8"><i class="fa-solid fa-clock"></i> 10h</span>
+                                <span><i class="fa-solid fa-message"></i> 23</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-[16px]">
+                        <img src="img/matches/matches_4.jpeg" alt="" class="w-full rounded-[10.737px_10.737px_0px_0px]">
+                        <div class="p-5 border-[#E8E8E8] border rounded-[0px_0px_10.737px_10.737px] border-t-0 ">
+                            <button
+                            class=" border border-[#161616] xl:px-[18px] xl:py-1 rounded-[5px] text-xl md:px-[18px] md:py-1 py-1 px-[18px] mb-[21px] font-[500] hover:border-[#FF0000] ease-out duration-[0.5s]"><a
+                                    href="" class="text-[#161616] hover:text-[#FF0000] ease-out duration-[0.5s]">Transfer</a></button>
+                            <h5 class="text-[#161616] text-[18.768px] font-semibold mb-[24px]">Transfer Live: Chlesea in
+                                talks over Kimpenbe transfer</h5>
+                            <div class="text-[#161616CC]">
+                                <span class="mr-8"><i class="fa-solid fa-clock"></i> 10h</span>
+                                <span><i class="fa-solid fa-message"></i> 23</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-[16px]">
+                        <img src="img/matches/matches_5.webp" alt="" class="w-full rounded-[10.737px_10.737px_0px_0px]">
+                        <div class="p-5 border-[#E8E8E8] border rounded-[0px_0px_10.737px_10.737px] border-t-0 ">
+                            <button
+                            class=" border border-[#161616] xl:px-[18px] xl:py-1 rounded-[5px] text-xl md:px-[18px] md:py-1 py-1 px-[18px] mb-[21px] font-[500] hover:border-[#FF0000] ease-out duration-[0.5s]"><a
+                                    href="" class="text-[#161616] hover:text-[#FF0000] ease-out duration-[0.5s]">Transfer</a></button>
+                            <h5 class="text-[#161616] text-[18.768px] font-semibold mb-[24px]">Transfer Live: Chlesea in
+                                talks over Kimpenbe transfer</h5>
+                            <div class="text-[#161616CC]">
+                                <span class="mr-8"><i class="fa-solid fa-clock"></i> 10h</span>
+                                <span><i class="fa-solid fa-message"></i> 23</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-[16px]">
+                        <img src="img/matches/matches_6.jpg" alt="" class="w-full rounded-[10.737px_10.737px_0px_0px]">
+                        <div class="p-5 border-[#E8E8E8] border rounded-[0px_0px_10.737px_10.737px] border-t-0 ">
+                            <button
+                            class=" border border-[#161616] xl:px-[18px] xl:py-1 rounded-[5px] text-xl md:px-[18px] md:py-1 py-1 px-[18px] mb-[21px] font-[500] hover:border-[#FF0000] ease-out duration-[0.5s]"><a
+                                    href="" class="text-[#161616] hover:text-[#FF0000] ease-out duration-[0.5s]">Transfer</a></button>
                             <h5 class="text-[#161616] text-[18.768px] font-semibold mb-[24px]">Transfer Live: Chlesea in
                                 talks over Kimpenbe transfer</h5>
                             <div class="text-[#161616CC]">
@@ -82,64 +138,8 @@
                         <img src="img/matches/matches_1.jpg" alt="" class="w-full rounded-[10.737px_10.737px_0px_0px]">
                         <div class="p-5 border-[#E8E8E8] border rounded-[0px_0px_10.737px_10.737px] border-t-0 ">
                             <button
-                            class=" border border-[#161616] xl:px-[18px] xl:py-1 rounded-[5px] text-xl md:px-[18px] md:py-1 py-1 px-[18px] mb-[21px] font-[500]"><a
-                                    href="" class="text-[#161616]">Transfer</a></button>
-                            <h5 class="text-[#161616] text-[18.768px] font-semibold mb-[24px]">Transfer Live: Chlesea in
-                                talks over Kimpenbe transfer</h5>
-                            <div class="text-[#161616CC]">
-                                <span class="mr-8"><i class="fa-solid fa-clock"></i> 10h</span>
-                                <span><i class="fa-solid fa-message"></i> 23</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mb-[16px]">
-                        <img src="img/matches/matches_1.jpg" alt="" class="w-full rounded-[10.737px_10.737px_0px_0px]">
-                        <div class="p-5 border-[#E8E8E8] border rounded-[0px_0px_10.737px_10.737px] border-t-0 ">
-                            <button
-                            class=" border border-[#161616] xl:px-[18px] xl:py-1 rounded-[5px] text-xl md:px-[18px] md:py-1 py-1 px-[18px] mb-[21px] font-[500]"><a
-                                    href="" class="text-[#161616]">Transfer</a></button>
-                            <h5 class="text-[#161616] text-[18.768px] font-semibold mb-[24px]">Transfer Live: Chlesea in
-                                talks over Kimpenbe transfer</h5>
-                            <div class="text-[#161616CC]">
-                                <span class="mr-8"><i class="fa-solid fa-clock"></i> 10h</span>
-                                <span><i class="fa-solid fa-message"></i> 23</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mb-[16px]">
-                        <img src="img/matches/matches_1.jpg" alt="" class="w-full rounded-[10.737px_10.737px_0px_0px]">
-                        <div class="p-5 border-[#E8E8E8] border rounded-[0px_0px_10.737px_10.737px] border-t-0 ">
-                            <button
-                            class=" border border-[#161616] xl:px-[18px] xl:py-1 rounded-[5px] text-xl md:px-[18px] md:py-1 py-1 px-[18px] mb-[21px] font-[500]"><a
-                                    href="" class="text-[#161616]">Transfer</a></button>
-                            <h5 class="text-[#161616] text-[18.768px] font-semibold mb-[24px]">Transfer Live: Chlesea in
-                                talks over Kimpenbe transfer</h5>
-                            <div class="text-[#161616CC]">
-                                <span class="mr-8"><i class="fa-solid fa-clock"></i> 10h</span>
-                                <span><i class="fa-solid fa-message"></i> 23</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mb-[16px]">
-                        <img src="img/matches/matches_1.jpg" alt="" class="w-full rounded-[10.737px_10.737px_0px_0px]">
-                        <div class="p-5 border-[#E8E8E8] border rounded-[0px_0px_10.737px_10.737px] border-t-0 ">
-                            <button
-                            class=" border border-[#161616] xl:px-[18px] xl:py-1 rounded-[5px] text-xl md:px-[18px] md:py-1 py-1 px-[18px] mb-[21px] font-[500]"><a
-                                    href="" class="text-[#161616]">Transfer</a></button>
-                            <h5 class="text-[#161616] text-[18.768px] font-semibold mb-[24px]">Transfer Live: Chlesea in
-                                talks over Kimpenbe transfer</h5>
-                            <div class="text-[#161616CC]">
-                                <span class="mr-8"><i class="fa-solid fa-clock"></i> 10h</span>
-                                <span><i class="fa-solid fa-message"></i> 23</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mb-[16px]">
-                        <img src="img/matches/matches_1.jpg" alt="" class="w-full rounded-[10.737px_10.737px_0px_0px]">
-                        <div class="p-5 border-[#E8E8E8] border rounded-[0px_0px_10.737px_10.737px] border-t-0 ">
-                            <button
-                            class=" border border-[#161616] xl:px-[18px] xl:py-1 rounded-[5px] text-xl md:px-[18px] md:py-1 py-1 px-[18px] mb-[21px] font-[500]"><a
-                                    href="" class="text-[#161616]">Transfer</a></button>
+                            class=" border border-[#161616] xl:px-[18px] xl:py-1 rounded-[5px] text-xl md:px-[18px] md:py-1 py-1 px-[18px] mb-[21px] font-[500] hover:border-[#FF0000] ease-out duration-[0.5s]"><a
+                                    href="" class="text-[#161616] hover:text-[#FF0000] ease-out duration-[0.5s]">Transfer</a></button>
                             <h5 class="text-[#161616] text-[18.768px] font-semibold mb-[24px]">Transfer Live: Chlesea in
                                 talks over Kimpenbe transfer</h5>
                             <div class="text-[#161616CC]">
@@ -152,8 +152,8 @@
                         <img src="img/matches/matches_1.jpg" alt="" class="w-full rounded-[10.737px_10.737px_0px_0px]">
                         <div class="p-5 border-[#E8E8E8] border rounded-[0px_0px_10.737px_10.737px] border-t-0 ">
                             <button
-                            class=" border border-[#161616] xl:px-[18px] xl:py-1 rounded-[5px] text-xl md:px-[18px] md:py-1 py-1 px-[18px] mb-[21px] font-[500]"><a
-                                    href="" class="text-[#161616]">Transfer</a></button>
+                            class=" border border-[#161616] xl:px-[18px] xl:py-1 rounded-[5px] text-xl md:px-[18px] md:py-1 py-1 px-[18px] mb-[21px] font-[500] hover:border-[#FF0000] ease-out duration-[0.5s]"><a
+                                    href="" class="text-[#161616] hover:text-[#FF0000] ease-out duration-[0.5s]">Transfer</a></button>
                             <h5 class="text-[#161616] text-[18.768px] font-semibold mb-[24px]">Transfer Live: Chlesea in
                                 talks over Kimpenbe transfer</h5>
                             <div class="text-[#161616CC]">
@@ -166,8 +166,8 @@
                         <img src="img/matches/matches_1.jpg" alt="" class="w-full rounded-[10.737px_10.737px_0px_0px]">
                         <div class="p-5 border-[#E8E8E8] border rounded-[0px_0px_10.737px_10.737px] border-t-0 ">
                             <button
-                            class=" border border-[#161616] xl:px-[18px] xl:py-1 rounded-[5px] text-xl md:px-[18px] md:py-1 py-1 px-[18px] mb-[21px] font-[500]"><a
-                                    href="" class="text-[#161616]">Transfer</a></button>
+                            class=" border border-[#161616] xl:px-[18px] xl:py-1 rounded-[5px] text-xl md:px-[18px] md:py-1 py-1 px-[18px] mb-[21px] font-[500] hover:border-[#FF0000] ease-out duration-[0.5s]"><a
+                                    href="" class="text-[#161616] hover:text-[#FF0000] ease-out duration-[0.5s]">Transfer</a></button>
                             <h5 class="text-[#161616] text-[18.768px] font-semibold mb-[24px]">Transfer Live: Chlesea in
                                 talks over Kimpenbe transfer</h5>
                             <div class="text-[#161616CC]">
@@ -179,8 +179,8 @@
                 </div>
                 
             </div>
-            <div class="hidden md:block xl:hidden text-center md:mt-9 md:mb-9"><button
-                class="bg-[#FF0000] border border-[#FF0000] text-white xl:px-6 xl:py-4 md:py-[12px] md:px-[29px] rounded-[5px] text-xl mb-[21px]"><a
+            <div class="hidden md:block xl:hidden text-center md:mt-9 md:mb-9 "><button
+                class="bg-[#FF0000] border border-[#FF0000] text-white xl:px-6 xl:py-4 md:py-[12px] md:px-[29px] rounded-[5px] text-xl mb-[21px] hover:bg-white hover:text-[#FF0000] hover:border-[#FF0000] ease-out duration-[0.5s]"><a
                     href="" class="">View All</a></button></div>
         </section>
     </main>
@@ -190,12 +190,12 @@
             <h3 class="mb-6 text-white text-[22px] font-semibold md:text-[40px] md:pt-[70px]">Goal</h3>
             <hr class="w-[335px] mx-auto text-[#FFFFFF1A] mb-6 md:w-[734px] xl:w-[1320px] ">
             <ul class="px-[14px] pb-[7px] text-[#B9B9B9] md:grid md:grid-cols-4 md:w-[734px] md:m-auto md:gap-6 md:pb-[55px] xl:grid xl:grid-cols-6 xl:m-0px xl:w-[968.156px] xl:mt-9">
-                <li class="mb-3"><a href="" class="">Contact Us</a></li>
-                <li class="mb-3"><a href="" class="">Terms of Service</a></li>
-                <li class="mb-3"><a href="" class="">Privacy Policy</a></li>
-                <li class="mb-3"><a href="" class=""> Privacy Settings</a></li>
-                <li class="mb-3 md:col-span-2 xl:col-span-1"><a href="" class="">Goal App</a></li>
-                <li class="mb-3 md:col-span-2 xl:col-span-1"><a href="" class="">Goal Live</a></li>
+                <li class="mb-3 hover:text-[#FF0000] duration-[.5s] ease-out"><a href="" class="">Contact Us</a></li>
+                <li class="mb-3 hover:text-[#FF0000] duration-[.5s] ease-out"><a href="" class="">Terms of Service</a></li>
+                <li class="mb-3 hover:text-[#FF0000] duration-[.5s] ease-out"><a href="" class="">Privacy Policy</a></li>
+                <li class="mb-3 hover:text-[#FF0000] duration-[.5s] ease-out"><a href="" class=""> Privacy Settings</a></li>
+                <li class="mb-3 hover:text-[#FF0000] duration-[.5s] ease-out md:col-span-2 xl:col-span-1"><a href="" class="">Goal App</a></li>
+                <li class="mb-3 hover:text-[#FF0000] duration-[.5s] ease-out md:col-span-2 xl:col-span-1"><a href="" class="">Goal Live</a></li>
             </ul>
         </div>
     </footer>
